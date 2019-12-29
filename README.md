@@ -1,0 +1,5 @@
+# ZonghengXS
+scrapy爬虫纵横小说
+纵横小说网对请求头headers没有什么要求，就算不设置user-agent也可以轻松爬取。
+当不限制爬取速度，到后面就会被网站发现，导致跳转验证码页面。
+所以我在middlewares里通过切换ip来防止我的爬虫被发现
